@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Library">
+      <UniqueIdentifier>{9ac5cd10-e17c-4a0f-b6de-d7278e7802f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Library\minihooks">
+      <UniqueIdentifier>{67e989d5-399b-40e2-ac65-d662372fa795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Library\minihooks\hde">
+      <UniqueIdentifier>{c9f5db8e-065e-4f44-a123-c9146f1cd4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{6cdef1e0-5348-4ef9-8dcc-83d07b43c6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk">
+      <UniqueIdentifier>{a8eb9e49-db1b-4101-8fb6-204b5b337bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\classes">
+      <UniqueIdentifier>{a7e0c042-f218-4fee-b7f5-388bb3312f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\misc">
+      <UniqueIdentifier>{d861cea5-2cd1-4eb6-8096-62f60cb0f78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\structs">
+      <UniqueIdentifier>{e6655f6f-cb4b-4dcf-97f8-92cd9276df70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{a7a99954-8fa8-4862-80c4-6ada067e0c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source-sdk\math">
+      <UniqueIdentifier>{acc584b7-467d-4bd8-8607-3d81068b647e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gameoffsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\head.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\kiero.h">
+      <Filter>Resource Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\src\buffer.h">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\src\trampoline.h">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\src\hde\hde32.h">
+      <Filter>Resource Files\Library\minihooks\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\src\hde\hde64.h">
+      <Filter>Resource Files\Library\minihooks\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\src\hde\pstdint.h">
+      <Filter>Resource Files\Library\minihooks\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\src\hde\table32.h">
+      <Filter>Resource Files\Library\minihooks\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\src\hde\table64.h">
+      <Filter>Resource Files\Library\minihooks\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kiero\minhook\include\MinHook.h">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imconfig.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui_impl_dx9.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui_impl_win32.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui_internal.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imstb_rectpack.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imstb_textedit.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imstb_truetype.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="csgotrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgosdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JunkcodeH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kiero\kiero.cpp">
+      <Filter>Resource Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kiero\minhook\src\buffer.c">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kiero\minhook\src\hook.c">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kiero\minhook\src\trampoline.c">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kiero\minhook\src\hde\hde32.c">
+      <Filter>Resource Files\Library\minihooks\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kiero\minhook\src\hde\hde64.c">
+      <Filter>Resource Files\Library\minihooks\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_demo.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_impl_dx9.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_impl_win32.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_widgets.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin_Changer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgoVector.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="legitbacktracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Qangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boneselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blockbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\kiero\minhook\dll_resources\MinHook.def">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\kiero\minhook\dll_resources\MinHook.rc">
+      <Filter>Resource Files\Library\minihooks</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
